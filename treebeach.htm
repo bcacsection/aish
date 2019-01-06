@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>treebeach</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('playa-jardin-tenerife-800x533.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+p {
+text-color:black;
+}
+</style>
+
+<body>
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+  <div class="w3-text-white"> <p>Playa Jardin <br>Puerto de la Cruz </p></div>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('Info').style.display='block'" class="w3-button w3-black">Info</button></p>
+    <p><button onclick="document.getElementById('Location').style.display='block'" class="w3-button w3-black">Location</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    
+    <p class="w3-large">Francisco Alfonso Carrillo Avenue <br>38400, Puerto de la Cruz</p>
+</p>
+  </div>
+</div>
+
+
+<!-- Menu Modal -->
+<div id="Info" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('Info').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+     <h1>About </h1>
+    </div>
+    <div class="w3-container">
+      <h5>Canarian artist Cesar Manrique is the talent behind the beauty of Playa Jardin, a picturesque beach in Puerto de la Cruz </h5>
+     <h5>His vision of creating an attractive coastal landscape really comes alive here; palm trees and long expanses of volcanic sand surrounded by colourful botanical gardens result in a charming and elegant resort.  </h5>
+      <h5>A waterfall cascades over volcanic rocks and little pools filled with marine life can be found dotted around. 
+The soft, dark-coloured sand rolls into the warm waters with one calm area being used by swimmers while surfers enjoy the waves elsewhere in the ocean.</h5>
+      <h5>Sit back, relax and take in the views of Tenerife s volcano Mount Teide. </h5>
+<h5>Best Time to Visit: During winter season</h5>
+
+<h5><a href="https://www.bing.com/videos/search?q=jardin+beach+tenerife+&&view=detail&mid=E9FD4B6824792A8216CEE9FD4B6824792A8216CE&&FORM=VRDGAR">watch a video</a></h5>  
+</div>
+     
+    </div>
+</div>
+ 
+<!-- Contact Modal -->
+<div id="Location" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-display-container">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('Location').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Location</h1>
+    </div>
+    <div class="w3-container">
+      <p>How To Get To Ramla Bay Gozo </p>
+      <a href="https://www.bing.com/maps?q=jardin+beach+tenerife+best+time+to+visit&FORM=HDRSC4" > Click Here </a> 
+   </div>
+  </div>
+</div>
+
+</body>
+</html>

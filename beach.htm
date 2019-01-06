@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('33328969433_f498d46da0_c.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+p {
+text-color:black;
+}
+</style>
+
+<body>
+<div class="bgimg w3-display-container w3-text-grey">
+  <div class="w3-display-middle w3-jumbo">
+  <div class="w3-text-white"> <p>Black Sand Beach, Iceland</p></div>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('Info').style.display='block'" class="w3-button w3-black">Info</button></p>
+    <p><button onclick="document.getElementById('Location').style.display='block'" class="w3-button w3-black">Location</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    
+    <p class="w3-large">Vikurbraut, Myrdalshreppur, Sudhurland 870</p>
+</p>
+  </div>
+</div>
+
+
+<!-- Menu Modal -->
+<div id="Info" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('Info').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+     <h1>About </h1>
+    </div>
+    <div class="w3-container">
+      <h5>Reynisfjara is a world-famous black-sand beach found on the South Coast of Iceland, just beside the small fishing village of Vik i Myrdal.</h5>
+     <h5>One of the most unusual beaches on the planet is located near the village of Vik in Iceland, which faces the open Atlantic Ocean and is situated in 180 kilometers from Reykjavik</h5>
+      <h5>These stones were created when lava collided with the Atlantic Ocean. It is a really stunning place on earth and each stone is cold, smooth, and has a shine to it. Sunsets on Reynisfjara are also out of this world as the black sand twinkles in the warm light.</h5>
+      <h5>At this end of Reynisfjara black sand beach was a high lava rock called Arnardrangur or Eagle Rock. The name comes from the eagles that nested there until 1850.</h5>
+<h5>The waves at Reynisfjara sand beach can be extremely powerful and deadly</h5>
+<h5>In addition, this place is famous for its caves and huge black boulders. Returning to the legends of trolls, they say that these creatures petrified here, when could not hide from the sun in time. Some say, they tried to drag three ships ashore, other to sink the Icelandic ship. </h5>
+<h5><a href="https://www.bing.com/videos/search?q=black+sand+beach+iceland&&view=detail&mid=22700D6EB36C7E3283FE22700D6EB36C7E3283FE&&FORM=VRDGAR">watch a video</a></h5>  
+</div>
+     
+    </div>
+</div>
+ 
+<!-- Contact Modal -->
+<div id="Location" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-display-container">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('Location').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Location</h1>
+    </div>
+    <div class="w3-container">
+      <p>How To Get To Iceland </p>
+      <a href="https://www.bing.com/maps/directions/?v=2&rtp=adr.bangalore~adr.Vikurbraut%2C%20M%C3%BDrdalshreppur%2C%20Sudhurland%20870" > Click Here </a> 
+   </div>
+  </div>
+</div>
+
+</body>
+</html>
+

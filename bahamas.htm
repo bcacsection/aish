@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<title>bahamas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('p-gold-rock-beach-gold-rock_54_990x660_201405312313.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+p {
+text-color:black;
+}
+</style>
+
+<body>
+<div class="bgimg w3-display-container w3-text-black">
+  <div class="w3-display-middle w3-jumbo">
+  <div class="w3-text-Black"> <p>Gold Rock Beach<br>Bahamas</p></div>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('Info').style.display='block'" class="w3-button w3-black">Info</button></p>
+    <p><button onclick="document.getElementById('Location').style.display='block'" class="w3-button w3-black">Location</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    
+    <p class="w3-large">Lucayan National Park , Lucaya</p>
+</p>
+  </div>
+</div>
+
+
+<!-- Menu Modal -->
+<div id="Info" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('Info').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+     <h1>About </h1>
+    </div>
+    <div class="w3-container">
+      <h5> Gold Rock Beach is part of The Lucayan National Park and is protected by the Bahamas National Trust. </h5>
+     <h5> At low tide, the shoreline of the beach spans for yards into the sea, and it is referred to as Grand Bahama Island's "welcome mat."  </h5>
+      <h5> The turquoise water is exceptionally clear, calm, and shallow, making it a perfect play place for families with young children. </h5>
+      <h5>Adventurous travelers will revel in the offerings of Gold Rock Beach Bahamas. Across the road from this beach is the Lucayan Caverns, one of the world’s longest underground cave systems. </h5>
+<h5>Best Time to Visit: June to Decembern</h5>
+
+<h5><a href="https://www.bing.com/videos/search?q=gold+rock+beach%2c+grand+bahama+island&&view=detail&mid=62D7B500CFF6D7C0814162D7B500CFF6D7C08141&&FORM=VRDGAR">watch a video</a></h5>  
+</div>
+     
+    </div>
+</div>
+ 
+<!-- Contact Modal -->
+<div id="Location" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-display-container">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('Location').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Location</h1>
+    </div>
+    <div class="w3-container">
+      <p>How To Get To Gold Rock Beach</p>
+      <a href="https://www.bing.com/maps?q=gold+rock+beach%2c+grand+bahama+island&FORM=HDRSC4" > Click Here </a> 
+   </div>
+  </div>
+</div>
+
+</body>
+</html>

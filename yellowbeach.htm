@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<title>yellow beach</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('3-red-orange-beach-sunset-eszra-tanner.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+p {
+text-color:black;
+}
+</style>
+
+<body>
+<div class="bgimg w3-display-container w3-text-black">
+  <div class="w3-display-middle w3-jumbo">
+  <div class="w3-text-Black"> <p>Ramla Bay Gozo </p></div>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('Info').style.display='block'" class="w3-button w3-black">Info</button></p>
+    <p><button onclick="document.getElementById('Location').style.display='block'" class="w3-button w3-black">Location</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    
+    <p class="w3-large">Xaghra</p>
+</p>
+  </div>
+</div>
+
+
+<!-- Menu Modal -->
+<div id="Info" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('Info').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+     <h1>About </h1>
+    </div>
+    <div class="w3-container">
+      <h5> Ramla Bay Gozo is situated at the bottom of the valley in the north of Gozo beneath the villages of Xaghra and Nadur.</h5>
+     <h5> It is the biggest sandy beach in Gozo and its unique reddish/golden coloured sand together its surrounding features are what makes it stand apart from all the other beaches in Malta and Gozo.</h5>
+      <h5>This bay is simply wonderful! One can truly relax here and feel removed from the daily grind. Here life stops for a breather and relaxation is surely guaranteed!</h5>
+      <h5>In the middle of the sandy beach there is an eye-catching statue of the Holy Mary with baby Jesus in her arms, a testimony to the strong religious faith of the Gozitans. </h5>
+<h5>Best Time to Visit: June to Decembern</h5>
+
+<h5><a href="https://www.bing.com/videos/search?q=Ramla+Bay+Gozo+address&&view=detail&mid=1FBE7ACA18A1811DB6B41FBE7ACA18A1811DB6B4&&FORM=VRDGAR">watch a video</a></h5>  
+</div>
+     
+    </div>
+</div>
+ 
+<!-- Contact Modal -->
+<div id="Location" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-display-container">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('Location').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Location</h1>
+    </div>
+    <div class="w3-container">
+      <p>How To Get To Ramla Bay Gozo </p>
+      <a href="https://www.bing.com/maps?q=Ramla+Bay+Gozo+address&FORM=HDRSC4" > Click Here </a> 
+   </div>
+  </div>
+</div>
+
+</body>
+</html>

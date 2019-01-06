@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<title>Mount Kilimanjaro</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('Mount-Kilimanjaro.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+p {
+text-color:black;
+}
+</style>
+
+<body>
+<div class="bgimg w3-display-container w3-text-black">
+  <div class="w3-display-middle w3-jumbo">
+  <div class="w3-text-black"> <p>Mount Kilimanjaro</p></div>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('Info').style.display='block'" class="w3-button w3-black">Info</button></p>
+    <p><button onclick="document.getElementById('Location').style.display='block'" class="w3-button w3-black">Location</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    
+    <p class="w3-large">  North East Tanzania</p>
+</p>
+  </div>
+</div>
+
+
+<!-- Menu Modal -->
+<div id="Info" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('Info').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+     <h1>About </h1>
+    </div>
+    <div class="w3-container">
+      <h5> Mount Kilimanjaro or just Kilimanjaro  with its three volcanic cones, Kibo, Mawenzi, and Shira, is a dormant volcano in Tanzania. It is the highest mountain in Africa, about 4,900 metres (16,100 ft) from its base, and 5,895 metres (19,341 ft) above sea level.  </h5>
+     <h5> The mountain is part of the Kilimanjaro National Park and is a major climbing destination. The mountain has been the subject of many scientific studies because of its shrinking glaciers and disappearing ice fields.</h5>
+      <h5>Almost every kind of ecological system is found on the mountain: cultivated land, rain forest, heath, moorland, alpine desert and an arctic summit.</h5>
+      <h5> Approximately 25,000 people attempt to summit Mt. Kilimanjaro annually. Approximately two-thirds are successful. Altitude-related problems is the most common reason climbers turn back.</h5>
+<h5>Best Time to Visit:January to March and June to October. </h5>
+
+<h5><a href="https://www.youtube.com/watch?v=ddjYoxtYRiA">watch a video</a></h5>  
+</div>
+     
+    </div>
+</div>
+ 
+<!-- Contact Modal -->
+<div id="Location" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-display-container">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('Location').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Location</h1>
+    </div>
+    <div class="w3-container">
+      <p>How To Get To Mount Kilimanjaro</p>
+      <a href="https://www.google.com/maps?hl=en-IN&authuser=0&biw=1600&bih=799&q=mount+kilimanjaro+video&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjt0bCSotjfAhWBO48KHUvUBUEQ_AUIDCgD" > Click Here </a> 
+   </div>
+  </div>
+</div>
+
+</body>
+</html>
